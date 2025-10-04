@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/RobotoCondensed-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/RobotoCondensed-SemiBold.woff2') format('woff2');
+  font-weight: 600; 
+  font-style: normal;
+  font-display: swap; 
+}
+@font-face {
+  font-family: Outfit;
+  src: url('../src/assets/fonts/Outfit-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --background-color:#0D1117;
+  --title-color:#F0F6FC;
+  --description-color:#C9D1D9;
+  --accent-color:#58A6FF;
+  --section-color:#161B22;
+}
+
+body{
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+}
+
+
+b{
+  color: var(--accent-color);
+  font-weight: 600;
+}
